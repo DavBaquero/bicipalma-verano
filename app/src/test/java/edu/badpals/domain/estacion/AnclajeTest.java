@@ -15,7 +15,7 @@ public class AnclajeTest {
         assertTrue(anclaje.isOcupado());
     }
 
-    /*@Test
+    @Test
     public void getBiciTest() {
         Anclaje anclaje = new Anclaje();
         anclaje.anclarBici(new Bicicleta(911));
@@ -24,7 +24,7 @@ public class AnclajeTest {
         assertTrue(anclaje.isOcupado());
     }
 
-    @Test
+    /*@Test
     public void liberarBiciTest() {
         Anclaje anclaje = new Anclaje();
         anclaje.anclarBici(new Bicicleta(911));
