@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class BicicletaTest {
-    /*Bicicleta bici = null;
+    Bicicleta bici = null;
     
     @Before
     public void setup() {
@@ -27,5 +27,5 @@ public class BicicletaTest {
     public void implementationMovilTest() {
         Movil movil = bici;
         assertEquals(999, movil.getId());
-    }*/
+    }
 }
