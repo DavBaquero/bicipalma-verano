@@ -22,6 +22,11 @@ public class Anclaje {
         this.ocupado = true;
     }
 
+    void liberarBici(){
+        this.bici = null;
+        this.ocupado = false;
+    }
+
     @Override
     public String toString(){
         return "ocupado: " + Boolean.toString(isOcupado());
